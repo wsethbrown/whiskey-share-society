@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Container = styled.div`
-    height: 60px;
+    height: 80px;
     background-color: #FAF0CA;
 `
 const Wrapper = styled.div`
@@ -29,13 +29,12 @@ const Right = styled.div`
     margin: auto;
     align-items: space-between;
     justify-content: flex-end;
+    color: #C1754A;
 `
 
-const Login = styled.span`
+const MenuItem = styled.span`
     margin-right: 2rem;
-`
-const CreateAccount = styled.span`
-    margin-right: 2rem;
+    cursor: pointer;
 `
 
 const Navbar = () => {
@@ -44,11 +43,11 @@ const Navbar = () => {
             <Wrapper>
                 <Left></Left>
                 <Center>
-                    <Logo>Whiskey Share Society</Logo>
+                    <Logo>WHISKEY SHARE SOCIETY</Logo>
                 </Center>
                 <Right>
-                    <Login>Login</Login>
-                    <CreateAccount>Create Account</CreateAccount>
+                    <MenuItem>Login</MenuItem>
+                    <MenuItem>Create Account</MenuItem>
                 </Right>
             </Wrapper>
         </Container>

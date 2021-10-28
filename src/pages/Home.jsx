@@ -1,11 +1,16 @@
 import React from "react"
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Slideshow from '../components/Slideshow'
+import Categories from '../components/Categories'
 
 const Home = () => {
     return(
         <div>
             <Navbar />
-            This is the homepage
+            <Slideshow />
+            <Categories />
+            <Footer />
         </div>
     )
 }
